@@ -6,11 +6,11 @@ import { Professional } from './professionals/entities/professional.entity';
 import { Manager } from './managers/entities/manager.entity';
 import { ChatSession } from './chat-sessions/entities/chat-session.entity';
 import { Appointment } from './appointments/entities/appointment.entity';
-import { UsersModule } from './users/users.module';
-import { ProfessionalsModule } from './professionals/professionals.module';
-import { ManagersModule } from './managers/managers.module';
-import { ChatSessionsModule } from './chat-sessions/chat-sessions.module';
-import { AppointmentsModule } from './appointments/appointments.module';
+import { UsersModule } from './users/user.module';
+import { ProfessionalsModule } from './professionals/professional.module';
+import { ManagersModule } from './managers/manager.module';
+import { ChatSessionsModule } from './chat-sessions/chat-session.module';
+import { AppointmentsModule } from './appointments/appointment.module';
 
 @Module({
   imports: [
